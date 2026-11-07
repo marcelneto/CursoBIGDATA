@@ -1,0 +1,37 @@
+### contexto1: 
+
+...
+Para que eu possa dirigir, eu preciso ter:
+- documento (CNH) em posse;
+- marioridade(+18 anos);
+- não estar alcoolizado.
+...
+
+
+pergunta1 = input("você tem os documentos em mãos?")
+pergunta2 = int(input("Qual a sua idade?"))
+pergunta3 = input("Você consumiu bebiba alcoólica antes de dirigir?")
+
+if pergunta1 =="sim" and pergunta2 >= 18:
+     print("pode dirigir.")
+elif pergunta1 == "sim"  pergunta3 == "sim":
+     print(não pode dirigir.")
+
+
+### contexto2:
+
+... 
+Para me deslocar até o SENAC Nova Iguaçu, posso utilizar:
+- trem;
+- ônibus;
+- metrô.
+... 
+
+
+trem = input("Você veio de trem?")
+busao = input("Você veio de ônibus?")
+metro = input("Você veio de metrô?")
+
+if trem == "sim" or busao == "sim" or metro == "sim":
+    print(Bem-vindo(a) ao SENAC.)
+    
